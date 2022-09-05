@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap");
+.btn-master, .btn-second, .btn-first {
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-weight: 500;
+  text-align: center;
+}
+@media (max-width: 575.98px) {
+  .btn-master, .btn-second, .btn-first {
+    padding: 10px 20px;
+  }
+}
+
+.btn-first {
+  background-color: #fc4f4f;
+  color: #fff;
+}
+.btn-first:hover {
+  background-color: #c21c1c;
+  color: #bebebe !important;
+}
+
+.btn-second {
+  border: 2px solid #fc4f4f;
+  color: #fc4f4f;
+}
+.btn-second:hover {
+  background-color: #fc4f4f;
+  color: #e6e6e6 !important;
+}
+
+.btn-master, .btn-first, .btn-second {
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-weight: 500;
+  text-align: center;
+}
+@media (max-width: 575.98px) {
+  .btn-master, .btn-first, .btn-second {
+    padding: 10px 20px;
+  }
+}
+
+.btn-first {
+  background-color: #fc4f4f;
+  color: #fff;
+}
+.btn-first:hover {
+  background-color: #c21c1c;
+  color: #bebebe !important;
+}
+
+.btn-second {
+  border: 2px solid #fc4f4f;
+  color: #fc4f4f;
+}
+.btn-second:hover {
+  background-color: #fc4f4f;
+  color: #e6e6e6 !important;
+}
+
+* {
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none !important;
+  transition: all 0.3s ease-in-out;
+  font-family: "Work Sans", sans-serif;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 1344px;
+}
+
+.section-margin {
+  margin-top: 180px;
+}
+
+.label-section {
+  font-weight: 500;
+  font-size: 25px;
+  color: #1b1919;
+}
+
+.heading-section {
+  font-weight: 500;
+  font-size: 40px;
+  color: #1b1919;
+}
+@media (max-width: 767.98px) {
+  .heading-section {
+    font-size: 30px;
+  }
+}
+
+.subheading-section {
+  font-weight: 300;
+  font-size: 18px;
+  color: #1b1919;
+}
+@media (max-width: 767.98px) {
+  .subheading-section {
+    font-size: 16px;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background: #f76e11;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: -27px;
+}
+
+.home {
+  background-color: #fff2e5;
+  padding-top: 180px;
+  padding-bottom: 50px;
+  height: 100vh;
+}
+@media (max-width: 767.98px) {
+  .home {
+    height: auto;
+  }
+}
+.home .heading-home {
+  font-size: 46px;
+  font-weight: 700;
+  color: #1b1919;
+}
+.home .heading-home .prop {
+  color: #f76e11;
+}
+.home .heading-home .kre {
+  color: #fc4f4f;
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .home .heading-home {
+    font-size: 36px;
+  }
+}
+@media (max-width: 575.98px) {
+  .home .heading-home {
+    font-size: 32px;
+  }
+}
+.home .subheading-home {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 30px;
+  color: #1b1919;
+}
+@media (max-width: 767.98px) {
+  .home .subheading-home {
+    font-size: 16px;
+  }
+}
+.home .btn-home {
+  margin-top: 120px;
+}
+@media (max-width: 767.98px) {
+  .home .btn-home {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .home .img-home {
+    max-width: 620px;
+    max-height: 500px;
+  }
+}
+
+.category i {
+  font-size: 40px;
+  color: #f76e11;
+}
+.category .card {
+  border: 2px solid #f76e11;
+}
+.category .card:hover {
+  background-color: #f76e11;
+}
+.category .card:hover .category-name,
+.category .card:hover .class {
+  color: #fff;
+}
+.category .card .category-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f76e11;
+}
+.category .card .class {
+  color: #f76e11;
+}
+.category .card .detail {
+  margin-left: 39px;
+}
+
+.product i {
+  font-size: 50px;
+  color: #f76e11;
+}
+.product .card {
+  border: none;
+}
+.product .card:hover img {
+  transform: scale(1.1);
+  transition: 0.2s ease-out;
+}
+.product .card .img-box {
+  width: 100%;
+  max-height: 290px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.product .card .img-box img {
+  width: 100%;
+}
+.product .card .img-box .bg-img {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 52.17%, #000 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.product .card .img-box .bg-img .info {
+  position: absolute;
+  bottom: 20px;
+}
+.product .card .img-box .bg-img .member {
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 0;
+}
+.product .card .img-box .bg-img i {
+  font-size: 24px;
+  color: rgb(212, 209, 6);
+}
+.product .card .product-caption .product-name {
+  font-size: 20px;
+  font-weight: 500;
+}
+.product .card .product-caption .price {
+  color: #f76e11;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.testimonial {
+  background: rgba(247, 110, 17, 0.1);
+}
+.testimonial .card {
+  border: none;
+  background-color: #f76e11;
+  color: #fff;
+}
+.testimonial .card .rate i {
+  font-size: 30px;
+  color: rgb(255, 251, 37);
+}
+.testimonial .card .profile .name {
+  font-weight: 500;
+}
+.testimonial .card .profile .status {
+  font-weight: 300;
+}
+.testimonial .card .icon-quote {
+  font-size: 40px;
+  color: #ffbc80;
+}
+
+.footer {
+  background-color: rgba(247, 110, 17, 0.8);
+  border-radius: 50px 50px 0 0;
+  padding: 60px 0 40px 0;
+}
+.footer .sosmed i {
+  font-size: 32px;
+}
+.footer h3 {
+  font-size: 20px;
+  color: #fff2e5;
+  font-weight: 700;
+}
+.footer ul {
+  padding-left: 0;
+}
+.footer ul li {
+  font-weight: 300;
+  color: #fff;
+}
+
+.navbar {
+  padding: 35px 0;
+}
+@media (max-width: 575.98px) {
+  .navbar {
+    padding: 25px 0;
+  }
+}
+.navbar.active {
+  background: #fff2e5;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.07);
+  padding: 20px 0;
+}
+.navbar .nav-link {
+  margin-right: 40px;
+  font-weight: 500;
+  color: #1b1919 !important;
+}
+.navbar .nav-link.active {
+  color: #f76e11 !important;
+  font-weight: 700;
+}
+.navbar .btn-masuk {
+  color: #1b1919;
+}/*# sourceMappingURL=main.css.map */

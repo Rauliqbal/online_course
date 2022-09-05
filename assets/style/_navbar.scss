@@ -1,0 +1,28 @@
+.navbar {
+  padding: 35px 0;
+
+  @include media-breakpoint-down(sm) {
+    padding: 25px 0;
+  }
+
+  &.active {
+    background: #fff2e5;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.07);
+    padding: 20px 0;
+  }
+
+  .nav-link {
+    margin-right: 40px;
+    font-weight: map-get($font-weights, medium);
+    color: $black !important;
+
+    &.active {
+      color: $primary !important;
+      font-weight: map-get($font-weights, bold);
+    }
+  }
+
+  .btn-masuk {
+    color: $black;
+  }
+}

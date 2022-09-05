@@ -1,0 +1,35 @@
+@import "colors";
+@import "fonts";
+
+.btn-master {
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-weight: map-get($font-weights, medium);
+  text-align: center;
+
+  @include media-breakpoint-down(sm) {
+    padding: 10px 20px;
+  }
+}
+
+.btn-first {
+  @extend .btn-master;
+  background-color: $btn-color;
+  color: #fff;
+
+  &:hover {
+    background-color: #c21c1c;
+    color: #bebebe !important;
+  }
+}
+
+.btn-second {
+  @extend .btn-master;
+  border: 2px solid $btn-color;
+  color: $btn-color;
+
+  &:hover {
+    background-color: $btn-color;
+    color: #e6e6e6 !important;
+  }
+}
